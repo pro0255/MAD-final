@@ -1,0 +1,23 @@
+;0
+ModelName;Transformer
+BatchSize;128
+Optimizer;Adam
+LR;0.001
+Epochs;-
+EmbeddingSize;-
+Time;-
+Accuracy;0.19724444444444444
+Hits;0
+Miss;0
+Key;LOWER_I
+SeqLen;300
+VocabSize;-
+TrainableEmbedding;True
+ConfMatrix;"[[   0    0    0    0 2213]
+ [   0    0    0    0 2203]
+ [   0    0    0    0 2323]
+ [   0    0    0    0 2292]
+ [   0    0    0    0 2219]]"
+Type;TL
+TransformerName;google/electra-small-discriminator
+NumberOfAuthors;5

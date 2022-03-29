@@ -1,0 +1,23 @@
+;0
+ModelName;Transformer
+BatchSize;128
+Optimizer;Adam
+LR;5e-05
+Epochs;-
+EmbeddingSize;-
+Time;-
+Accuracy;0.884
+Hits;0
+Miss;0
+Key;LOWER_I
+SeqLen;300
+VocabSize;-
+TrainableEmbedding;True
+ConfMatrix;"[[1932   65   99   57   60]
+ [  96 1780  103  159   65]
+ [  93   61 2038   92   39]
+ [  32   51   16 2184    9]
+ [  57   50   31   70 2011]]"
+Type;TL
+TransformerName;distilbert-base-uncased
+NumberOfAuthors;5

@@ -1,0 +1,23 @@
+;0
+ModelName;Transformer
+BatchSize;128
+Optimizer;Adam
+LR;5e-05
+Epochs;-
+EmbeddingSize;-
+Time;-
+Accuracy;0.8896888888888889
+Hits;0
+Miss;0
+Key;LOWER_I
+SeqLen;300
+VocabSize;-
+TrainableEmbedding;True
+ConfMatrix;"[[1845   72  102  118   76]
+ [  34 1847   67  209   46]
+ [  60   84 2059   87   33]
+ [  12   22   19 2227   12]
+ [  27   26   30  105 2031]]"
+Type;TL
+TransformerName;bert-base-uncased
+NumberOfAuthors;5

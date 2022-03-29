@@ -1,0 +1,23 @@
+;0
+ModelName;Bidirectional GRU
+BatchSize;64
+Optimizer;Adam
+LR;0.001
+Epochs;-
+EmbeddingSize;50
+Time;-
+Accuracy;0.6929777777777778
+Hits;0
+Miss;0
+Key;RAW
+SeqLen;300
+VocabSize;10000
+TrainableEmbedding;True
+ConfMatrix;"[[1428  125  512   34  114]
+ [  50 1417  393  268   75]
+ [ 209  541 1402   98   73]
+ [  23  299   79 1729  162]
+ [  97   94   74  134 1820]]"
+Type;NORMAL
+TransformerName;-
+NumberOfAuthors;5

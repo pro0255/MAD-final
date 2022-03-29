@@ -1,0 +1,23 @@
+;0
+ModelName;DENSE
+BatchSize;64
+Optimizer;Adam
+LR;0.001
+Epochs;-
+EmbeddingSize;50
+Time;-
+Accuracy;0.7973333333333333
+Hits;0
+Miss;0
+Key;LOWER_I
+SeqLen;400
+VocabSize;10000
+TrainableEmbedding;True
+ConfMatrix;"[[1559  158  332   46  118]
+ [ 127 1619  214  176   67]
+ [ 144   78 1956   85   60]
+ [  11  115  136 1940   90]
+ [  65   48  103  107 1896]]"
+Type;NORMAL
+TransformerName;-
+NumberOfAuthors;5
